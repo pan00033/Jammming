@@ -1,5 +1,5 @@
-const clientId = ''; // Insert client ID here.
-const redirectUri = 'http://musicgroove.surge.sh'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
+const clientId = 'ba91d6fd63354201b197b787efd83402'; // Insert client ID here.
+const redirectUri = 'http://musicgroove.surge.sh/'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 let accessToken;
 
 const Spotify = {
@@ -73,7 +73,5 @@ const Spotify = {
     });
   }
 };
-
-
 
 export default Spotify;
